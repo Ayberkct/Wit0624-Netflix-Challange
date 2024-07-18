@@ -243,10 +243,6 @@ main {
   max-height: 9rem;
 }
 
-.movie-container:hover {
-  transform: scale(1.05);
-}
-
 .movie-card h3 {
   margin: 0 0 10px 0;
 }
@@ -269,6 +265,9 @@ main {
   padding: 0.5rem 1rem;
   border-radius: 1rem;
   margin-top: 4rem;
+}
+.movie-card-play-button:hover {
+  transform: scale(1.05);
 }
 
 .play-button-icon {
